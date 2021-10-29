@@ -1,0 +1,45 @@
+<section id="banner"></section>
+<section id="about__me"></section>
+
+<section id="shop__online"></section>
+<section id="footer"></section>
+
+<section id="footer">
+  <footer>
+    <h1 class="brand__name">LauraS</h1>
+    <i class="fas fa-mobile"><span> 02-242021</span></i>
+    <div class="footer__links"></div>
+    <div class="footer__address">
+      <img src="./images/map.png" alt="" />
+      <p>Studio 137 Minestreet</p>
+      <p>Manhattan, NY, USA</p>
+    </div>
+    <div class="footer__opening__hours">
+      <p>Monday-Friday: 8AM - 4PM</p>
+    </div>
+    <div class="footer__social__medias">
+      <h5>Follow Us</h5>
+    </div>
+  </footer>
+</section>
+
+<section id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+      </div>
+    </div>
+  </nav>
+</section>

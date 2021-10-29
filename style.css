@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Quando&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arvo", serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background-color: #bb9e66 !important;
+}
+
+.all__buttons {
+  background-color: #030303 !important;
+  color: #ffffff !important;
+}
+
+.brand__name {
+  font-family: "Orbitron", sans-serif;
+}
+
+.image1 {
+  max-width: 100%;
+  height: auto;
+  background-color: #bb9e66;
+}
+
+#about__us {
+  margin-top: 100px;
+}
+
+.about__us__text {
+  font-size: 60px;
+  margin-right: 20px;
+  float: right;
+  font-weight: bolder;
+}
+
+#best__sellers {
+  margin-top: 100px;
+}
+
+#best__sellers h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.clothes {
+  margin-top: 20px;
+}
+
+.about__me__text {
+  background-color: #bb9e66;
+  border: 4px solid black;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 0.9cm;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -8rem;
+  text-align: center;
+}
+
+.why__choose__us__image__description {
+  color: #030303 !important;
+}
+
+.mock__up {
+  max-width: 100%;
+  height: auto;
+}
+
+.star1,
+.star2,
+.star3,
+.star4,
+.star5 {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: orange;
+}
+
+#our__features {
+  padding: 50px;
+}
+
+#our__features img {
+  border-radius: 10px;
+}
+
+#our__features h4 {
+  color: #423d45;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+#our__features p {
+  color: #b6b6b6;
+  line-height: 0.8cm;
+}
+
+#why__choose__us {
+  padding-top: 50px;
+}
+#why__choose__us h1 {
+  color: #423d45;
+  font-weight: bold;
+  text-align: center;
+}
+
+#why__choose__us p {
+  color: #b6b6b6;
+  line-height: 0.8cm;
+  text-align: center;
+  padding: 50px;
+}
+
+#why__choose__us img {
+  margin-left: 45%;
+  max-width: 14%;
+  height: auto;
+}
+
+.text__color__changer {
+  background-color: #ff69b4;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer__header {
+  padding-top: 20px;
+}
+
+.footer__sign__up {
+  margin-top: 1.5rem;
+}
+
+.footer__sign__up input {
+  width: 98%;
+  height: 40px;
+}
+
+.subscribe__button {
+  background-color: #030303;
+  color: #ffffff;
+  width: 200px;
+  height: 60px;
+  margin-top: 0.8rem;
+}
+
+.footer__links {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__links a,
+.footer__contact p {
+  color: #b6b6b6;
+}
+
+.footer__contact i {
+  color: #030303;
+}
+
+.footer__links a:visited {
+  text-decoration: none;
+  color: #b6b6b6;
+}
+
+.footer__contact {
+  margin-top: 30px;
+}
+
+.footer__contact img {
+  max-width: 90%;
+}
+
+.social__media {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.social__media a:visited {
+  text-decoration: none;
+  color: #030303;
+}
+
+.carousel .carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.first__slide {
+  background: url(./icons/Women\ Dress\ Mockup.png);
+  background-size: cover;
+}
+
+.check__out__button {
+  margin: 22rem 2rem;
+  width: 11rem;
+  height: 60px;
+}
+
+.second__slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.third__slide {
+  background: url(./images/slide__1.png);
+}
+.third__slide img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 3em;
+}
+
+.third__slide h4,
+.fourth__slide h4 {
+  text-align: center;
+  line-height: 1.5cm;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.fourth__slide h4 {
+  color: #030303;
+  font-weight: bolder;
+  padding-top: 40px;
+}
+
+.fourth__slide button {
+  margin-left: 95px;
+}
+.fourth__slide {
+  background: url(./images/online.jpg);
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
